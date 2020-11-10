@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Import Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+
+
+/* Main */
+.main-color{
+  color: #00C3CD !important;
+}
+
+.main-border{
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.color-white{
+  color: #FFFFFF !important;
+}
+
+.backgroud-white{
+  background-color: #FFFFFF !important;
+}
+
+.backgroud-dark-grey{
+  background-color: #484848 !important;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
+
+.margin-y-10{
+  margin: 10px 0;
+}
+
+
+/*===========================*/
+
+.login-layout-header .ant-menu-horizontal{
+  border-bottom: none !important;
+}
+
+.login-layout-header .ant-menu-item.ant-menu-item-only-child{
+  border-bottom: none !important;
+
+}
+
+/* ========== LAYOUT LOGIN ========= */
+
+.form-border{
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.login-layout-header-menu-item{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+}
+
+.login-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo .logo{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.login-layout-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form .ant-form-item-required{
+  float: left;
+}
+.login-input{
+  color: #00C3CD;
+  font-weight: 700;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.admin-layout {
+  height: 100%;
+}
+.admin-layout .ant-dropdown-trigger {
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.admin-layout .ant-dropdown-trigger:hover {
+  background-color: #e6f7ff;
+}
+.user-avatar {
+  margin-right: 10px;
+}
+.admin-layout .ant-layout-header {
+  position: relative;
+  padding-right: 15px !important;
+}
+.admin-layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.admin-layout .trigger:hover {
+  color: #1890ff;
+}
+
+.app-menu-item {
+  display: flex;
+  align-items: center;
+}
+.login-layout-container {
+  background: #F2F9FF !important;
+  /* background-image: url('./images/login-bg.png') !important; */
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% !important;
+  /* padding: 110px 0 144px 0; */
+  /* position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.login-layout-header{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-image: linear-gradient(#004BD2, #00C3CD) !important;
+
+}
+.login-layout-container .login-form {
+  width: 368px;
+  padding: 36px;
+  background-color: #FFFFFF;
+}
+.login-layout-container .btn-login {
+  width: 100%;
+  background-color: #00C3CD;
+}
+.login-layout-container .form-register{
+  width: 600px;
+}
+.ant-menu-submenu-popup > .ant-menu{
+  background-image: linear-gradient(#004BD2, #00C3CD) !important;
+}
+.admin-layout .logo {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 70px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.sidebar-left-menu .ant-menu .ant-menu-item a{
+  font-size: 14px;
+}
+.admin-layout .logo img{
+  width: inherit;
+}
+
+
+/* Main Menu */
+
+.ant-menu-item-selected > span.login-layout-header-menu-item {
+  padding: 6px;
+  color: #484848 !important;
+  background-color: #FFFFFF !important; /*Overriden property*/
+  border-radius: 6px;
+}

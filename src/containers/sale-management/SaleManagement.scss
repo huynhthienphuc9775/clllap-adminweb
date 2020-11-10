@@ -1,0 +1,36 @@
+.export-excel{
+    display: flex !important;
+    align-items: center;
+
+    .text-excel{
+        color: #484848;
+        font-weight: 500;
+    }
+
+    .icon-excel{
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+.col-group{
+    background-color: #00C3CD !important;
+    border-right: 1px solid white;
+}
+
+.col-group:nth-child(3){
+    border-right: none !important;
+}
+
+@media (max-width: 767px) {
+    .search-input{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .export-excel{
+        margin-top: 10px;
+    }
+}

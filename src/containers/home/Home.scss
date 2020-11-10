@@ -1,0 +1,129 @@
+.header-title {
+    padding: 15px 0 15px 65px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.ant-radio-button-wrapper-checked{
+    background-color: #00C3CD !important;
+    border-color: #00C3CD !important;
+}
+.ant-radio-button-wrapper{
+    margin-right: 10px !important;
+}
+
+.ant-radio-checked .ant-radio-inner{
+    border-color: #00C3CD !important ;
+}
+
+.ant-radio-checked .ant-radio-inner:after{
+    background-color: #00C3CD;
+}
+
+.ant-radio:hover .ant-radio-inner {
+    border-color: #00C3CD ;
+}
+
+.small-divider{
+    background-color: #00C3CD;
+    height: 2px;
+}
+
+
+.ant-card.home-card {
+    box-shadow: 0px 4px 4px rgba(43, 35, 35, 0.25);
+    border-radius: 10px;
+
+
+    .ant-card-head {
+        background-color: #484848;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+
+    .ant-card-head-title {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-family: 'Noto Sans KR', sans-serif;
+
+    }
+
+    .big-divider{
+        background-color: #00C3CD;
+        height: 4px;
+    }
+    
+    .small-divider{
+        background-color: #00C3CD;
+        height: 2px;
+    }
+
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+
+        .total-title {
+            color: #00C3CD !important;
+            font-size: 18px;
+        }
+
+        .total-cal {
+            color: #00C3CD !important;
+            font-size: 18px;
+
+        }
+
+        .item {
+            color: black;
+            font-weight: 700;
+            font-style: normal;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    }
+}
+
+.export-excel{
+    display: flex !important;
+    align-items: center;
+
+    .text-excel{
+        color: #484848;
+        font-weight: 500;
+    }
+
+    .icon-excel{
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+.setting-time{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.list-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .setting-time{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .list-area{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+  }
