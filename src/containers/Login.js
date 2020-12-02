@@ -24,8 +24,20 @@ const Login = (props) => {
     const { history } = props;
 
     const onFinish = (values) => {
-        console.log('Success:', values);
-        history.push('/home');
+        
+        // // POST METHOD
+        // const opt = {
+        //     method: 'POST',
+        //     body: { type: null, user_id: 15 }
+        // }
+        // const result = await request('/user/login', opt);
+
+        // // GET METHOD
+        // const result = await request('/user/get-current-user');
+
+        // // PUT METHOD
+        // const result = await request(`/delivery/change-status-doing/12345`, {method: 'PUT'});
+
     };
 
     const onFinishFailed = (errorInfo) => {
